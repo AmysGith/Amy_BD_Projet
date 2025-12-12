@@ -10,10 +10,8 @@ conn = psycopg2.connect(
     port=5432
 )
 
-# Récupérer les données de la table project
+#Test pour voir les doublons dans project
 df = pd.read_sql_query("SELECT * FROM project", conn)
-
-
 
 # Créer des colonnes normalisées (enlever espaces et mettre en majuscules)
 df['name_normalized'] = df['name'].str.strip().str.upper()
@@ -24,11 +22,8 @@ duplicates = df.groupby(['name_normalized', 'client_normalized', 'startdate', 'e
 duplicates = duplicates.sort_values(['name_normalized', 'client_normalized', 'startdate'])
 
 # Afficher les doublons groupés
-print(f"=== TOTAL: {len(duplicates)} lignes en doublon ({len(duplicates)//2} paires) ===\n")
-
 groups = duplicates.groupby(['name_normalized', 'client_normalized', 'startdate', 'enddate', 'version'])
 group_num = 1
-
 for (name_norm, client_norm, start, end, ver), group in groups:
     print(f"GROUPE {group_num}:")
     for idx, row in group.iterrows():
@@ -36,6 +31,4 @@ for (name_norm, client_norm, start, end, ver), group in groups:
     print()
     group_num += 1
 
-
-# Fermer la connexion
 conn.close()
