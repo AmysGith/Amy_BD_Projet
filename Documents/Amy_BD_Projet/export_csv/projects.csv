@@ -1,61 +1,61 @@
 projectid,student_fullname,name,client,startdate,enddate,version
-1,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,issueforge,johnson llc,2025-04-19,2026-03-09,4.2.4
-2,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,SquashFlow,Taylor Inc,2024-06-17,2025-05-10,1.7.8
-3,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  BUGPULSE  ,"Mcclain, Miller and Henderson",2025-05-18,2025-11-30,1.7.6
-4,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  TRACKNEST  ,  ROBINSON PLC  ,2024-01-02,2024-03-26,5.6.2
-5,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,errorgrid,Hoffman Ltd,2025-03-21,2025-07-05,0.3.7
-6,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,FixRadar,"Gardner, Robinson and Lawrence",2025-04-27,2025-09-20,1.6.7
-7,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,Blake and Sons,2025-08-29,2025-10-14,4.5.3
-8,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  TRACEHIVE  ,peterson-moore,2025-06-04,2025-12-02,3.9.7
-9,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,PatchBay,  GARCIA-JAMES  ,2025-07-25,2025-10-17,4.7.1
-10,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,bugpulse,Munoz-Roman,2024-09-13,2025-07-12,2.6.2
-11,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,FixRadar,Herrera-Dudley,2025-06-28,2025-12-02,4.8.8
-12,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,BugPulse,arnold ltd,2024-09-29,2025-02-24,0.9.9
-13,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,LogScope,Ray-Bush,2025-04-03,2026-02-14,0.6.1
-14,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,debugdock,"Perez, Roberts and Miller",2024-01-14,2024-09-08,5.5.2
-15,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,IssueForge,  JAMES GROUP  ,2024-06-07,2024-12-18,2.3.8
-16,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  ERRORGRID  ,martin-kelly,2025-04-16,2025-07-12,4.1.0
-17,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,LogScope,miles-sutton,2025-05-13,2025-07-15,2.4.2
-18,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  BUGPULSE  ,"Reid, Ferguson and Sanchez",2024-02-03,2024-05-26,0.7.6
-19,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DEBUGDOCK  ,Nelson-Schaefer,2024-12-03,2025-03-02,4.8.9
-20,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  TRACEHIVE  ,"  ROBINSON, NGUYEN AND TATE  ",2025-05-27,2026-02-15,1.0.2
-21,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,IssueForge,  UNDERWOOD LLC  ,2024-01-22,2024-10-22,1.9.9
-22,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DEBUGDOCK  ,jones-gentry,2024-10-16,2024-11-19,0.4.7
-23,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  PATCHBAY  ,"Edwards, Rios and Foster",2025-02-22,2025-12-29,1.6.2
-24,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,PatchBay,"  ELLIS, BAKER AND WRIGHT  ",2025-11-19,2026-01-05,3.6.7
-25,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,"Baker, Richards and Hurst",2025-02-18,2025-07-03,5.4.3
-26,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,BugPulse,  ROBINSON-BRIGHT  ,2024-10-15,2025-05-01,5.9.9
-27,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,LogScope,  DAVIS-WILLIAMS  ,2025-01-08,2025-09-28,0.2.6
-28,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,BugPulse,burton ltd,2024-03-04,2024-05-06,4.4.6
-29,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,TraceHive,"Brown, James and Ferrell",2024-11-01,2025-01-15,0.8.8
-30,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  ERRORGRID  ,Maddox-Valencia,2025-01-23,2025-03-05,3.6.7
-31,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,FixRadar,"  LE, MALDONADO AND HERRERA  ",2023-12-18,2024-06-14,5.7.8
-32,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,TraceHive,"Peterson, Carter and Moore",2024-07-04,2025-06-02,0.1.8
-33,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,"Liu, Baker and Mason",2023-12-12,2024-07-03,4.6.2
-34,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,IssueForge,"  GAINES, HARRELL AND EVANS  ",2024-04-26,2024-09-06,1.4.6
-35,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,PatchBay,"lynch, hernandez and farmer",2025-04-19,2025-08-17,4.8.9
-36,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  FIXRADAR  ,"  SELLERS, GEORGE AND BURNS  ",2025-01-31,2025-03-27,5.2.6
-37,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,squashflow,  KOCH-DECKER  ,2024-03-05,2024-04-14,5.6.8
-38,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,LogScope,Brown PLC,2024-08-04,2025-05-25,2.7.5
-39,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,tracehive,  DENNIS INC  ,2024-02-09,2024-08-31,1.2.6
-40,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,patchbay,"Cannon, Anderson and Alvarez",2025-07-22,2025-08-26,4.8.4
-37,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  SQUASHFLOW  ,Koch-Decker,2024-03-05,2024-04-14,5.6.8
-15,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,IssueForge,james group,2024-06-07,2024-12-18,2.3.8
-20,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,TraceHive,"  ROBINSON, NGUYEN AND TATE  ",2025-05-27,2026-02-15,1.0.2
-3,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,BugPulse,"  MCCLAIN, MILLER AND HENDERSON  ",2025-05-18,2025-11-30,1.7.6
-26,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,bugpulse,  ROBINSON-BRIGHT  ,2024-10-15,2025-05-01,5.9.9
-2,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,squashflow,Taylor Inc,2024-06-17,2025-05-10,1.7.8
-1,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,issueforge,johnson llc,2025-04-19,2026-03-09,4.2.4
-14,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,"  PEREZ, ROBERTS AND MILLER  ",2024-01-14,2024-09-08,5.5.2
-18,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,BugPulse,"  REID, FERGUSON AND SANCHEZ  ",2024-02-03,2024-05-26,0.7.6
-22,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DEBUGDOCK  ,  JONES-GENTRY  ,2024-10-16,2024-11-19,0.4.7
-31,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,FixRadar,"Le, Maldonado and Herrera",2023-12-18,2024-06-14,5.7.8
-30,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,errorgrid,Maddox-Valencia,2025-01-23,2025-03-05,3.6.7
-10,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  BUGPULSE  ,Munoz-Roman,2024-09-13,2025-07-12,2.6.2
-13,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,LogScope,  RAY-BUSH  ,2025-04-03,2026-02-14,0.6.1
-29,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  TRACEHIVE  ,"Brown, James and Ferrell",2024-11-01,2025-01-15,0.8.8
-11,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,fixradar,Herrera-Dudley,2025-06-28,2025-12-02,4.8.8
-36,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,FixRadar,"Sellers, George and Burns",2025-01-31,2025-03-27,5.2.6
-27,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,logscope,Davis-Williams,2025-01-08,2025-09-28,0.2.6
-7,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,blake and sons,2025-08-29,2025-10-14,4.5.3
-25,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,DebugDock,"Baker, Richards and Hurst",2025-02-18,2025-07-03,5.4.3
+1,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,User-centric needs-based array,"henderson, johnson and robinson",2024-01-20,2025-06-28,5.0.7
+2,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Assimilated next generation customer loyalty,"Santos, Gardner and Robinson",2024-06-25,2025-10-05,2.9.6
+3,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Adaptive well-modulated workforce,Wolfe LLC,2024-07-27,2025-02-28,4.3.6
+4,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Extended well-modulated Graphical User Interface,davis inc,2024-03-28,2024-07-26,5.4.6
+5,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Robust empowering workforce,Blair PLC,2024-04-29,2025-01-21,0.7.3
+6,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Configurable neutral frame,"Montgomery, Hensley and Ray",2024-01-29,2024-11-18,1.9.9
+7,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  BALANCED STABLE EMULATION  ,  GALLOWAY-WYATT  ,2024-09-10,2024-11-03,2.8.7
+8,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  MULTI-TIERED EVEN-KEELED KNOWLEDGEBASE  ,"Flowers, Martin and Kelly",2024-11-12,2025-01-29,4.7.8
+9,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Total systemic project,Lynch and Sons,2024-08-28,2025-03-23,0.5.3
+10,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Diverse maximized implementation,Mayo-Bowman,2024-07-06,2025-01-12,1.6.9
+11,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Synergized fresh-thinking throughput,Perez Inc,2024-07-15,2025-01-01,2.7.9
+12,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Open-architected encompassing architecture,gentry plc,2024-10-19,2025-06-21,0.9.1
+13,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Extended solution-oriented methodology,  WILKERSON-DAY  ,2024-11-16,2025-07-18,1.3.8
+14,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,devolved dynamic synergy,"  RYAN, BURGESS AND PATTERSON  ",2024-02-05,2024-08-28,1.2.1
+15,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Multi-lateral directional challenge,"  SNYDER, CAMPOS AND CALLAHAN  ",2024-07-25,2025-05-31,2.6.5
+16,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DIVERSE SYSTEMIC INTERFACE  ,"  BROWN, JAMES AND FERRELL  ",2024-02-09,2025-06-10,5.9.9
+17,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Reactive 24/7 software,"wilson, dyer and potter",2024-07-04,2025-01-15,5.1.6
+18,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Customizable explicit Internet solution,Chavez Ltd,2024-10-05,2025-06-26,3.1.1
+19,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Profit-focused well-modulated conglomeration,"gaines, harrell and evans",2024-11-16,2025-06-08,4.6.3
+20,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Robust dedicated collaboration,Farmer-Ryan,2024-08-16,2025-09-14,0.1.1
+21,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Adaptive radical Graphic Interface,smith-hickman,2024-10-09,2025-11-24,2.3.2
+22,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  FRONT-LINE ANALYZING ENCODING  ,"  ARROYO, MILLER AND TUCKER  ",2024-11-17,2025-07-13,5.9.0
+23,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Public-key zero administration capacity,Keller PLC,2024-01-07,2025-08-19,0.5.4
+24,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Progressive real-time interface,hickman ltd,2024-02-14,2024-09-06,1.9.7
+25,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Universal fault-tolerant initiative,"  SANTOS, KIM AND HOLMES  ",2024-09-04,2025-02-07,4.7.7
+26,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Face-to-face asymmetric Graphical User Interface,Chapman and Sons,2024-01-27,2024-08-06,3.9.0
+27,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  ADAPTIVE ASYNCHRONOUS STRATEGY  ,"brown, jones and johnson",2024-07-27,2025-01-14,4.0.6
+28,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  PROFOUND DISINTERMEDIATE FOCUS GROUP  ,"washington, ryan and cummings",2024-04-18,2024-06-12,0.2.0
+29,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  FULLY-CONFIGURABLE ZERO TOLERANCE LEVERAGE  ,Lee-Davis,2024-11-18,2025-11-20,3.6.8
+30,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Optimized incremental Local Area Network,"brown, valdez and lucas",2024-05-27,2025-02-26,1.2.3
+31,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,upgradable global website,Wright and Sons,2024-01-04,2024-11-11,1.5.9
+32,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DEVOLVED INTERACTIVE CONTINGENCY  ,  FORD-BAXTER  ,2024-07-07,2025-06-20,2.5.3
+33,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  REACTIVE BANDWIDTH-MONITORED APPLICATION  ,"Kidd, Huff and Novak",2024-01-10,2024-12-19,5.0.2
+34,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Front-line composite installation,  OLSON-HANCOCK  ,2024-12-05,2025-09-23,4.2.0
+35,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DOWN-SIZED HOMOGENEOUS ABILITY  ,baker-bowers,2024-11-26,2024-12-18,0.3.2
+36,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,optimized tangible superstructure,"  STANLEY, TUCKER AND LEE  ",2024-06-05,2025-01-12,5.6.5
+37,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,reduced user-facing moratorium,  ADKINS INC  ,2024-03-05,2024-04-19,2.6.9
+38,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Polarized motivating moderator,Brown PLC,2023-12-31,2025-03-28,3.1.1
+39,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Enterprise-wide asymmetric policy,Leonard and Sons,2024-01-12,2025-11-03,3.0.7
+40,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Re-contextualized dynamic paradigm,"  WILLIAMS, MILLER AND SANDOVAL  ",2024-05-16,2024-08-17,2.4.3
+41,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Re-contextualized dynamic paradigm,"Williams, Miller and Sandoval",2024-05-16,2024-08-17,2.4.3
+42,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Multi-tiered even-keeled knowledgebase,"Flowers, Martin and Kelly",2024-11-12,2025-01-29,4.7.8
+43,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  ASSIMILATED NEXT GENERATION CUSTOMER LOYALTY  ,"Santos, Gardner and Robinson",2024-06-25,2025-10-05,2.9.6
+44,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  POLARIZED MOTIVATING MODERATOR  ,  BROWN PLC  ,2023-12-31,2025-03-28,3.1.1
+45,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Upgradable global website,  WRIGHT AND SONS  ,2024-01-04,2024-11-11,1.5.9
+46,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Face-to-face asymmetric Graphical User Interface,  CHAPMAN AND SONS  ,2024-01-27,2024-08-06,3.9.0
+47,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,configurable neutral frame,"Montgomery, Hensley and Ray",2024-01-29,2024-11-18,1.9.9
+48,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,optimized incremental local area network,"Brown, Valdez and Lucas",2024-05-27,2025-02-26,1.2.3
+49,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Fully-configurable zero tolerance leverage,Lee-Davis,2024-11-18,2025-11-20,3.6.8
+50,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Reduced user-facing moratorium,Adkins Inc,2024-03-05,2024-04-19,2.6.9
+51,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  DIVERSE SYSTEMIC INTERFACE  ,"Brown, James and Ferrell",2024-02-09,2025-06-10,5.9.9
+52,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  OPEN-ARCHITECTED ENCOMPASSING ARCHITECTURE  ,gentry plc,2024-10-19,2025-06-21,0.9.1
+53,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,  EXTENDED WELL-MODULATED GRAPHICAL USER INTERFACE  ,Davis Inc,2024-03-28,2024-07-26,5.4.6
+54,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,extended solution-oriented methodology,Wilkerson-Day,2024-11-16,2025-07-18,1.3.8
+55,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,devolved interactive contingency,Ford-Baxter,2024-07-07,2025-06-20,2.5.3
+56,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Multi-lateral directional challenge,"Snyder, Campos and Callahan",2024-07-25,2025-05-31,2.6.5
+57,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Balanced stable emulation,  GALLOWAY-WYATT  ,2024-09-10,2024-11-03,2.8.7
+58,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Synergized fresh-thinking throughput,Perez Inc,2024-07-15,2025-01-01,2.7.9
+59,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,Devolved dynamic synergy,"ryan, burgess and patterson",2024-02-05,2024-08-28,1.2.1
+60,RATSIHOARANA Nomenahitantsoa Amy Andriamalala,enterprise-wide asymmetric policy,Leonard and Sons,2024-01-12,2025-11-03,3.0.7
