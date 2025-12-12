@@ -1,4 +1,3 @@
-
 COPY project(projectid, student_fullname, name, client, startdate, enddate, version)
 FROM 'C:\Program Files\PostgreSQL\16\fichierCSV\projects.csv'
 WITH (

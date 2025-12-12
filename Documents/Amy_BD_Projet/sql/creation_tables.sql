@@ -1,3 +1,5 @@
+TRUNCATE TABLE projectdeveloper, bugfix, releases, bug, developer, project RESTART IDENTITY CASCADE;
+
 DROP TABLE IF EXISTS projectdeveloper CASCADE;
 DROP TABLE IF EXISTS bugfix CASCADE;
 DROP TABLE IF EXISTS releases CASCADE;
