@@ -11,7 +11,7 @@ conn = psycopg2.connect(
 )
 
 #Test pour voir les doublons dans project
-df = pd.read_sql_query("SELECT * FROM developer", conn)
+df = pd.read_sql_query("SELECT * FROM project", conn)
 
 # Créer des colonnes normalisées (enlever espaces et mettre en majuscules)
 df['name_normalized'] = df['name'].str.strip().str.upper()
