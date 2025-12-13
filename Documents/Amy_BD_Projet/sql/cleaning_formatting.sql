@@ -7,14 +7,14 @@
 UPDATE project
 SET name = INITCAP(TRIM(name)),
     client = INITCAP(TRIM(client)),
-    student_fullname = INITCAP(TRIM(student_fullname));
+    student_fullname = fn_normalize_student_name(student_fullname);
 
 -- Table developer
 UPDATE developer
 SET name = INITCAP(TRIM(name)),
     specialty = INITCAP(TRIM(specialty)),
     email = LOWER(TRIM(email)),
-    student_fullname = INITCAP(TRIM(student_fullname));
+    student_fullname = fn_normalize_student_name(student_fullname);
 
 -- Table bug
 UPDATE bug
@@ -23,22 +23,22 @@ SET title = INITCAP(TRIM(title)),
     severity = INITCAP(TRIM(severity)),
     status = INITCAP(TRIM(status)),
     createdby = INITCAP(TRIM(createdby)),
-    student_fullname = INITCAP(TRIM(student_fullname));
+    student_fullname = fn_normalize_student_name(student_fullname);
 
 -- Table releases
 UPDATE releases
 SET version = INITCAP(TRIM(version)),
     notes = INITCAP(TRIM(notes)),
-    student_fullname = INITCAP(TRIM(student_fullname));
+    student_fullname = fn_normalize_student_name(student_fullname);
 
 -- Table bugfix
 UPDATE bugfix
 SET description = INITCAP(TRIM(description)),
-    student_fullname = INITCAP(TRIM(student_fullname));
+    student_fullname = fn_normalize_student_name(student_fullname);
 
 -- Table projectdeveloper
 UPDATE projectdeveloper
-SET student_fullname = INITCAP(TRIM(student_fullname));
+SET student_fullname = fn_normalize_student_name(student_fullname);
 
 -- =========================================
 -- NETTOYAGE DES DONNÉES : SUPPRESSION DES DOUBLONS
@@ -193,3 +193,39 @@ DELETE FROM developer
 WHERE devid IN (SELECT old_devid FROM developer_mapping);
 
 DROP TABLE IF EXISTS developer_mapping;
+
+-- ==============================================================
+-- Correction des erreurs erreurs injectées dans les emails
+-- ==============================================================
+
+
+-- Corriger les emails NULL
+--    COALESCE : si email est NULL, on le remplace
+--    par un email construit à partir du nom
+UPDATE developer
+SET email = COALESCE(
+    email,
+    LOWER(REPLACE(name, ' ', '.')) || '@gmail.com'
+);
+
+
+-- Correction des emails invalides (validation simple)
+--    Regex basique : quelquechose@quelquechose.domaine
+UPDATE developer
+SET email = LOWER(REPLACE(name, ' ', '.')) || '@gmail.com'
+WHERE email !~ '^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$';
+
+
+-- Sécurisation supplémentaire
+--    Cas où des caractères invalides subsistent
+--    (ex: chiffres injectés, symboles étranges)
+UPDATE developer
+SET email =
+    REGEXP_REPLACE(
+        LOWER(REPLACE(name, ' ', '.')) || '@gmail.com',
+        '[^a-z.@]',
+        '',
+        'g'
+    );
+
+
