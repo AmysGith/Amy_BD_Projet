@@ -1,21 +1,11 @@
----==================================================================
----Pour tester les exceptions, lancer un par un 
----car sinon ça va toujours éxécuter que le premier qu'il trouve
----==================================================================
-
----affecter un developpeur à un projet
-SELECT sp_add_project_developer(5, 12, 
+-- Supposons que nous voulons ajouter le développeur 12 au projet 3
+CALL sp_assign_developer_to_project(3, 12, 
 fn_normalize_student_name('RATSIHOARANA Nomenahitantsoa Amy Andriamalala'));
 
----vérification des exceptions 
-SELECT sp_add_project_developer(
-    999,   -- projet inexistant
-    12,    -- dev existant
-    fn_normalize_student_name('RATSIHOARANA Nomenahitantsoa Amy Andriamalala')
-);
+-- Vérifier que l’insertion a bien eu lieu
+SELECT * FROM projectdeveloper
+WHERE projectid = 3 AND devid = 12;
 
-SELECT sp_add_project_developer(
-    5,     -- projet existant
-    999,   -- dev inexistant
-    fn_normalize_student_name('RATSIHOARANA Nomenahitantsoa Amy Andriamalala')
-);
+-- Essayer de réassigner le même développeur pour montrer le rollback / gestion d’erreur
+CALL sp_assign_developer_to_project(3, 12, 
+fn_normalize_student_name('RATSIHOARANA Nomenahitantsoa Amy Andriamalala'));
