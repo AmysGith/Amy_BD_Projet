@@ -50,3 +50,23 @@ BEGIN
     END;
 END;
 $$;
+
+-- ==============================================================
+-- VUES MATERIALISEES 
+-- voir combien il y a de bugs sur un projet
+-- ==============================================================
+CREATE MATERIALIZED VIEW mv_bug_count_by_project AS
+SELECT
+    p.projectid,
+    p.name AS project_name,
+    COUNT(b.bugid) AS total_bugs
+FROM project p
+LEFT JOIN bug b
+    ON p.projectid = b.projectid
+GROUP BY
+    p.projectid,
+    p.name;
+
+CREATE UNIQUE INDEX idx_mv_bug_count_by_project
+ON mv_bug_count_by_project(projectid);
+
